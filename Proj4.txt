@@ -1,0 +1,19 @@
+1st text file: origination, destination data
+    where you're flying from and too
+2nd text file: possible flight paths you can take
+
+Must utilize iterative back tracking
+stack<string> myStack
+    must use pop and push in order to go back down and on
+    visible references would be used for this
+
+1st File:
+1st line: total number of origin/destination pairs
+-parse line to the space, need to get rid of ',' which can be easily done in a 
+    clean up method
+
+2nd File:
+1st line: total number of flight plan calculations
+rest are lines that contain the origin and destination
+
+the first file provides a map, need to visibly see it
